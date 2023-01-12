@@ -81,6 +81,13 @@ body {
   border: 3px dashed white;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .projects{
   display: flex;
   flex-direction: column;
@@ -188,4 +195,22 @@ body {
     opacity: 1;
   }
 
+}
+
+@media only screen and (max-width: 720px) {
+  .swiper {
+    width: 80%;
+    height: 53%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .swiper {
+    width: 65%;
+    height: 65%;
+  }
+
+  .info {
+    font-size: 0.9rem;
+  }
 }
