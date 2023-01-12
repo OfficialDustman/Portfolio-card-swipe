@@ -202,15 +202,23 @@ body {
     width: 80%;
     height: 53%;
   }
+
+  .info {
+    font-size: 80%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
   .swiper {
-    width: 65%;
-    height: 65%;
+    width: 75%;
+    height: 75%;
   }
 
   .info {
-    font-size: 0.9rem;
+    font-size: 60%;
+  }
+
+  .info {
+    /* font-size: 0.9rem; */
   }
 }
